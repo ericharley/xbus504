@@ -1,4 +1,9 @@
 .*  # ignore all hidden files and folders
 !/.gitignore  # explicitly do not ignore .gitignore
 
-Notebooks/7. Nonparametric Statistics/1. Sign test/.ipynb_checkpoints/Sign Test-checkpoint.ipynb
+# Mac OS X hidden files
+.DS_Store
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+**/*.ipynb_checkpoints/
+.ipynb_checkpoints/*.ipynb
